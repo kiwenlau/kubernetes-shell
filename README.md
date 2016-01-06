@@ -20,12 +20,15 @@ chmod +x run.sh
 ./run.sh
 ```
 
+kubernetes容器启动时间需要10秒。运行成功后直接进入了kubernetes容器。
+
 4.测试kubernetes
 
 ```
-chmod +x test-kubernetes.sh
 ./test-kubernetes.sh 
 ```
+
+该测试将创建一个pod，运行nginx
 
 
 
