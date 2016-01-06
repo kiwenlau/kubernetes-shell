@@ -19,3 +19,4 @@ kube-proxy --master=http://0.0.0.0:8080 > /tmp/kube-proxy.log 2>&1 &
 while [[ true ]]; do
 	sleep 1
 done
+

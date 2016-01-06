@@ -14,4 +14,5 @@ ADD start-kubernetes.sh /usr/local/bin/start-kubernetes.sh
 
 CMD ["start-kubernetes.sh"]
 
-# sudo docker build -t kiwenlau/kubernetes-cluster:1.0.7 
+# sudo docker build -t kiwenlau/kubernetes-shell:1.0.7 
+
