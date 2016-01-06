@@ -1,3 +1,11 @@
+##项目简介
+
+该项目中，我将kubernetes的所有组件：etcd, controller manager, apiserver, scheduler, kubelet, proxy以及docker daemon均运行在同一个Docker容器之中。
+
+容器启动时，各个组件由一个shell脚本启动。
+
+![alt text](https://github.com/kiwenlau/kubernetes-shell/raw/master/kubernetes-shell.png)
+
 ##运行步骤
 
 1.克隆GitHub仓库
