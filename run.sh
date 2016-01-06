@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo -e "\nbuild kubernetes image."
-cd kubernetes
-sudo docker build -t kiwenlau/kubernetes-shell:1.0.7 .
+# echo -e "\nbuild kubernetes image."
+# cd kubernetes
+# sudo docker build -t kiwenlau/kubernetes-shell:1.0.7 .
 
 docker rm -f kubernetes > /dev/null
 

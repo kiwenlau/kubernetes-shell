@@ -15,4 +15,7 @@ kube-scheduler --master=http://0.0.0.0:8080 > /tmp/kube-scheduler.log 2>&1 &
 kubelet --api_servers=http://0.0.0.0:8080 --address=0.0.0.0 --cluster_dns=10.0.0.10 --cluster_domain="kubernetes.local" --pod-infra-container-image="kiwenlau/pause:0.8.0"  > /tmp/kubelet.log 2>&1 &
 kube-proxy --master=http://0.0.0.0:8080 > /tmp/kube-proxy.log 2>&1 &
 
-bash
+# just keep this script running
+while [[ true ]]; do
+	sleep 1
+done
